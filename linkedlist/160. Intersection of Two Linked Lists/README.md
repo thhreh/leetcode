@@ -1,0 +1,1 @@
+did not have idea in the first hand. Looked at solution. When impletemeting myself, first mistake is while loop, should also try recurssion. Next problem is the conditions in while loop, check node itself if its null instead of node next if it is null. Did not think trough the actual problem before writing code.
