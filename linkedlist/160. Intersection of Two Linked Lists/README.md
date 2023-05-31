@@ -4,4 +4,6 @@ When writing c# code, always forget the ; at the end.
 
 Prevant using if else, use more effecient expression.
 
-When consider linkedlist problems in O(n) time, it does not mean we only need to triverse linkin list once. It is ok to triverse constant times of linked list, for example my solution to trough it two times and still consider constant time. Also keep in mind connecting linkedin list with each other can give different result.  May31
+When consider linkedlist problems in O(n) time, it does not mean we only need to triverse linkin list once. It is ok to triverse constant times of linked list, for example my solution to trough it two times and still consider constant time. Also keep in mind connecting linkedin list with each other can give different result.  Also consider exit condition. 
+
+A problem that I had when looking at the problem is all the numbers are not unique. I should have known we do not need to use value here instead compare them in memory. May31
