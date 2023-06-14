@@ -1,0 +1,1 @@
+Easier than I thought. Recurssive does not have to be one node by another, it can be every two node. Also, make sure recurssion end statement is suggested. Furthermore, looking for more efficient way,
