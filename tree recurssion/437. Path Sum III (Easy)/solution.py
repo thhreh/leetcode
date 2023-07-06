@@ -11,6 +11,7 @@ class Solution:
             self.lookup[root_sum+targetSum] += 1
             dfs(node.left,root_sum)
             dfs(node.right,root_sum)
+            #once reach a leave, go back to previous connected path and withdraw it from map
             self.lookup[root_sum+targetSum] -= 1
         dfs(root,0)
 
